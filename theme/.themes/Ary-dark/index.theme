@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Ary-dark
+Comment=A light theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Ary-dark
+MetacityTheme=Ary-dark
+IconTheme=Kora
+ButtonLayout=:minimize,maximize,close

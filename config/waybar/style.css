@@ -1,0 +1,188 @@
+/* Mocha Flamingo */
+@define-color accent #9BBFBF;
+@define-color txt #ffffff;
+@define-color bg #131519;
+@define-color bg2 #131519;
+
+ * {
+    font-family: 'Ubuntu Nerd Font', 'monospace';
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 18px;
+    border-radius: 0;
+ }
+
+ window {
+    background: transparent;
+    margin: -10px;
+    background-color: #0B0C0F ;  /* #050607 */
+    border-radius: 7px;
+
+      }
+
+
+#workspaces {
+   background-color: transparent;
+ }
+ 
+ #workspaces button {
+   all: initial;
+   /* Remove GTK theme values (waybar #1351) */
+   /* Fix weird spacing in materia (waybar #450) */
+   /* Use box-shadow instead of border so the text isn't offset */
+   padding: 5px 8px;
+   margin: 6px 2px;
+   border-radius: 4px;
+   background-color: #0b0c0f ;
+   color: #ffffff;
+ }
+ 
+ #workspaces button.active {
+   color: #0B0C0F;
+   background-color: #D3C9D2;
+ }
+ 
+ #workspaces button:hover {
+   box-shadow: inherit;
+   text-shadow: inherit;
+   color: #131519;
+   background-color: #D3C9D2;
+ }
+ 
+ #workspaces button.urgent {
+   background-color: #8097C1;
+ }
+
+ #custom-color {
+     /* Remove GTK theme values (waybar #1351) */
+     min-width: 0;
+     /* Fix weird spacing in materia (waybar #450) */
+     box-shadow: inset 0 -3px transparent;
+     /* Use box-shadow instead of border so the text isn't offset */
+     padding: 6px 10px;
+     margin: 6px 3px;
+     border-radius: 6px;
+     background-color: #151616;
+     color: #ffffff; 
+ }
+
+#custom-arch {
+     /* Remove GTK theme values (waybar #1351) */
+     min-width: 0;
+     /* Fix weird spacing in materia (waybar #450) */
+     box-shadow: inset 0 -3px transparent;
+     font-size: 14px;
+     /* Use box-shadow instead of border so the text isn't offset */
+     padding: 6px 8px;
+     margin: 6px 3px;
+     border-radius: 4px;
+     background-color: #0F1014;
+     color: #00a489;    
+     margin-left: 10px;
+}
+
+#window {
+     /* Remove GTK theme values (waybar #1351) */
+     min-width: 0;
+     /* Fix weird spacing in materia (waybar #450) */
+     box-shadow: inset 0 -3px transparent;
+     /* Use box-shadow instead of border so the text isn't offset */
+     padding: 6px 10px;
+     margin: 6px 3px;
+     border-radius: 4px;
+     background-color: #0F1014;
+     color: #ffffff; 
+ }
+
+ #clock {
+   /* Remove GTK theme values (waybar #1351) */
+   min-width: 0;
+   /* Fix weird spacing in materia (waybar #450) */
+   box-shadow: inset 0 -3px transparent;
+   /* Use box-shadow instead of border so the text isn't offset */
+   padding: 6px 10px;
+   margin: 6px 3px;
+   border-radius: 4px;
+   background-color: #0F1014;
+   color: #ffffff;
+ }
+
+ #wireplumber {
+   all: initial;
+   /* Remove GTK theme values (waybar #1351) */
+   min-width: 0;
+   /* Fix weird spacing in materia (waybar #450) */
+   box-shadow: inset 0 -3px transparent;
+   font-family: 'Ubuntu Nerd Font', monospace;
+   font-size: 13px;
+   font-weight: bold; 
+   /* Use box-shadow instead of border so the text isn't offset */
+   padding: 6px 10px;
+   margin: 6px 3px;
+   border-radius: 4px;
+   background-color: #0F1014;
+   color: #ffffff; 
+ }
+
+ #network {
+  all: initial;
+  /* Remove GTK theme values (waybar #1351) */
+  min-width: 0;
+  /* Fix weird spacing in materia (waybar #450) */
+  box-shadow: inset 0 -3px transparent;
+  font-family: 'Ubuntu Nerd Font', monospace;
+  font-size: 13px;
+  font-weight: bold; 
+  /* Use box-shadow instead of border so the text isn't offset */
+  padding: 6px 10px;
+  margin: 6px 3px;
+  border-radius: 4px;
+  background-color: #0F1014;
+  color: #ffffff; 
+ }
+
+ 
+#custom-media {
+  all: initial;
+  /* Remove GTK theme values (waybar #1351) */
+  min-width: 0;
+  /* Fix weird spacing in materia (waybar #450) */
+  box-shadow: inset 0 -3px transparent;
+  font-family: 'Ubuntu Nerd Font', monospace;
+  font-size: 13px;
+  font-weight: bold; 
+  /* Use box-shadow instead of border so the text isn't offset */
+  padding: 6px 10px;
+  margin: 6px 3px;
+  border-radius: 4px;
+  background-color: #0F1014;
+  color: #ffffff; 
+}
+ #custom-shutdown {
+     /* Remove GTK theme values (waybar #1351) */
+     min-width: 0;
+     /* Fix weird spacing in materia (waybar #450) */
+     box-shadow: inset 0 -3px transparent;
+     /* Use box-shadow instead of border so the text isn't offset */
+     padding: 6px 10px;
+     margin: 6px 3px;
+     border-radius: 4px;
+     background-color: #0F1014;
+     color: #ffffff; 
+   color:  #e74c3c ;
+   margin-right: 10px;
+ }
+
+ #tray {
+   all: initial;
+   /* Remove GTK theme values (waybar #1351) */
+   min-width: 0;
+   /* Fix weird spacing in materia (waybar #450) */
+   box-shadow: inset 0 -3px transparent;
+   /* Use box-shadow instead of border so the text isn't offset */
+   padding: 6px 10px;
+   margin: 6px 3px;
+   border-radius: 4px;
+   background-color: #0F1014;
+   color: #ffffff;
+ }
