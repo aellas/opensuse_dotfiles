@@ -3,7 +3,6 @@
 
   # Images
 
-> Desktop
 ![alt text](assets/overview.png?raw=true)
 
  - Distro: openSUSE Tumbleweed
