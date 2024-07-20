@@ -13,7 +13,6 @@ After the script has finished, install tofi via `opi tofi`
 
 ### Images
 ![alt text](assets/overview.png?raw=true)
-![alt text](assets/ary-dark.png?raw=true)
 
 > [!NOTE]
 > ary-dark is a WIP theme and will change over time
@@ -29,11 +28,8 @@ After the script has finished, install tofi via `opi tofi`
  - Wallpaper: Swaybg
  - Theme: Ary-dark
 
-| Keybinds  | Action |
-| ------------- | ------------- |
-| Mod + Q  | Kill Window |
-| Mod + ENTER  | Launches Kitty |
-| Mod + BACKSLASH | Launches neovim  |
-| Mod + SPACE  | Launches Wofi |
-| Mod + SHIFT + W  | Restarts Waybar|
+> [!NOTE]
+> ary-dark is a WIP theme and will change over time
+
+![alt text](assets/ary-dark.png?raw=true)
 
