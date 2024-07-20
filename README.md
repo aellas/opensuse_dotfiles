@@ -1,10 +1,12 @@
+# My personal openSUSE Tumbleweed + Hyprland dotfiles
+
 > [!NOTE]
 > ary-dark is a WIP theme and will change over time
 
 > [!IMPORTANT]  
 > The install script does not place any of the files for you, I've done this so you can decide which parts of my dotfiles you want :) 
 
-# Install script
+## Install script
 ```
 cd /path/to/script
 chmod +x setup-suse.sh
@@ -12,7 +14,7 @@ chmod +x setup-suse.sh
 ```
 After the script has finished, install tofi via `opi tofi`
 
-# Images
+### Images
 ![alt text](assets/overview.png?raw=true)
 ![alt text](assets/ary-dark.png?raw=true)
 
