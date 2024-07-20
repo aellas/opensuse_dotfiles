@@ -2,8 +2,8 @@
  My personal dotfiles for openSUSE Tumbleweed
 
   # Image
->
 ![alt text](assets/overview.png?raw=true)
+![alt text](assets/ary-dark.png?raw=true)
 
  - Distro: openSUSE Tumbleweed
  - WM: Hyprland
