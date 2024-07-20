@@ -6,9 +6,8 @@
 cd /path/to/script
 chmod +x setup-suse.sh
 ./setup-suse.sh
-After the script has finished, install tofi via
-opi tofi
 ```
+After the script has finished, install tofi via `opi tofi`
 
 # Images
 ![alt text](assets/overview.png?raw=true)
