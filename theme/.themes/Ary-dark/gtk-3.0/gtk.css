@@ -157,13 +157,13 @@ read if you used those and something break with a version upgrade you're on your
     background-color: #181b20; }
   .gtkstyle-fallback:selected {
     color: #ffffff;
-    background-color: #0F1014; }
+    background-color: #ffffff; }
 
 .view, iconview,
 .view text,
 iconview text,
 textview text {
-  color: #C3C7D1;
+  color: #ffffff;
   background-color: #0F1014; }
   .view:backdrop, iconview:backdrop,
   .view text:backdrop,
@@ -188,7 +188,7 @@ rubberband,
 flowbox rubberband,
 .content-view rubberband,
 treeview.view rubberband {
-  border: 1px solid #1b1d22;
+  border: 1px solid #ffffff;
   background-color: rgba(27, 29, 34, 0.2); }
 
 flowbox flowboxchild {
@@ -204,7 +204,7 @@ label {
     label.separator:backdrop {
       color: #6d7077; }
   label selection {
-    background-color: #0F1014;
+    background-color: #0ACEB2;
     color: #ffffff; }
   label:disabled {
     color: #6d7077; }
@@ -229,7 +229,7 @@ assistant.csd .sidebar {
 assistant .sidebar label {
   padding: 6px 12px; }
 assistant .sidebar label.highlight {
-  background-color: #393b41; }
+  background-color: #0ACEB2; }
 
 .app-notification,
 .app-notification.frame, .osd .scale-popup, .csd popover.background.touch-selection, .csd popover.background.magnifier, popover.background.touch-selection, popover.background.magnifier, .csd popover.background.osd, popover.background.osd, .osd {
@@ -245,7 +245,7 @@ assistant .sidebar label.highlight {
     -gtk-icon-shadow: none; }
 
 *:selected {
-  background: #0F1014;
+  background: #D3C9D2;
   color: #ffffff; }
 
 /***********
@@ -840,7 +840,7 @@ toolbar button:active {
   text-shadow: none;
   -gtk-icon-shadow: none; }
   .inline-toolbar toolbutton > button:hover {
-    color: #ffffff; }
+    color: #f2f2f2; }
   .inline-toolbar toolbutton > button:active, .inline-toolbar toolbutton > button:checked {
     color: #f2f2f2; }
   .inline-toolbar toolbutton > button:disabled {
@@ -2589,7 +2589,7 @@ GraniteWidgetsWelcome {
   headerbar.selection-mode button:backdrop.flat:checked,
   headerbar.selection-mode button:backdrop:active,
   headerbar.selection-mode button:backdrop:checked {
-    border-color: #1b1d22; }
+    border-color: #00A489; }
     .selection-mode.titlebar button:backdrop.flat:active label, .selection-mode.titlebar button:backdrop.flat:checked label, .selection-mode.titlebar button:backdrop:active label, .selection-mode.titlebar button:backdrop:checked label,
     headerbar.selection-mode button:backdrop.flat:active label,
     headerbar.selection-mode button:backdrop.flat:checked label,
@@ -3399,7 +3399,7 @@ scale {
     border-radius: 12px;
     background-color: #fff; }
     scale slider:active {
-      border-color: #1b1d22; }
+      border-color: #00A489; }
     scale slider:disabled {
       background-color: #bfbfbf;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
@@ -3408,7 +3408,7 @@ scale {
       background-color: #bfbfbf;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
     row:selected scale slider:disabled, row:selected scale slider {
-      border-color: #1b1d22; }
+      border-color: #ffffff; }
     .osd scale slider {
       color: #fefefe;
       border-color: rgba(0, 0, 0, 0.7);
@@ -4386,7 +4386,7 @@ treeview.view {
   treeview.view:drop(active) {
     border-style: solid none;
     border-width: 1px;
-    border-color: #1b1d22; }
+    border-color: #00A489; }
     treeview.view:drop(active).after {
       border-top-style: none; }
     treeview.view:drop(active).before {
@@ -4409,7 +4409,7 @@ treeview.view {
     treeview.view.expander:backdrop {
       color: #56585f; }
   treeview.view.progressbar {
-    border: 1px solid #1b1d22;
+    border: 1px solid #00A489;
     border-radius: 4px;
     background-color: #495aff;
     background-image: linear-gradient(to bottom, #495aff, #162cff);
@@ -4429,7 +4429,7 @@ treeview.view {
     background-color: rgba(195, 199, 209, 0.1);
     border-radius: 4px; }
     treeview.view.trough:selected:focus, treeview.view.trough:selected {
-      background-color: #1b1d22;
+      background-color: #00A489;
       border-radius: 4px; }
   treeview.view header button {
     color: #70737b;
@@ -4562,7 +4562,7 @@ popover.background radiobutton:selected,
 .menuitem.button.flat:selected, calendar:selected, spinbutton:not(.vertical) selection:focus, spinbutton:not(.vertical) selection,
 entry selection:focus,
 entry selection, row:selected, treeview.view:selected:focus, treeview.view:selected {
-  background-color: #0F1014; }
+  background-color: #292C33 ; }
   row:selected label, label:selected, .selection-mode button.titlebutton, .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
   .view text:selected:focus,
   iconview text:selected:focus,
@@ -5928,7 +5928,7 @@ ConversationListView {
     border-width: 0 0 1px 0; }
     ConversationListView .view .cell:selected, ConversationListView iconview .cell:selected {
       color: #ffffff;
-      border: 0px solid #1b1d22; }
+      border: 0px solid #D3C9D2; }
 
 /***********
  * LightDm *
@@ -6172,7 +6172,7 @@ ConversationListView {
       color: #ffffff;
       outline-color: rgba(255, 255, 255, 0.3);
       background-color: #0F1014;
-      border: 1px solid #1b1d22;
+      border: 1px solid #00A489;
       text-shadow: none; }
 
 /*# sourceMappingURL=gtk.css.map */

@@ -44,7 +44,7 @@
 read if you used those and something break with a version upgrade you're on your own... */
 @define-color wm_title shade(#C3C7D1, 1.8);
 @define-color wm_unfocused_title #6d7077;
-@define-color wm_highlight rgba(0, 0, 0, 0);
+@define-color wm_highlight rgba(0, 255, 99, 0);
 @define-color wm_borders_edge rgba(255, 255, 255, 0.1);
 @define-color wm_bg_a shade(#0B0C0F, 1.2);
 @define-color wm_bg_b #0B0C0F;
@@ -188,7 +188,7 @@ rubberband,
 flowbox rubberband,
 .content-view rubberband,
 treeview.view rubberband {
-  border: 1px solid #1b1d22;
+  border: 1px solid #00A489;
   background-color: rgba(27, 29, 34, 0.2); }
 
 flowbox flowboxchild {
@@ -2589,7 +2589,7 @@ GraniteWidgetsWelcome {
   headerbar.selection-mode button:backdrop.flat:checked,
   headerbar.selection-mode button:backdrop:active,
   headerbar.selection-mode button:backdrop:checked {
-    border-color: #1b1d22; }
+    border-color: #00A489; }
     .selection-mode.titlebar button:backdrop.flat:active label, .selection-mode.titlebar button:backdrop.flat:checked label, .selection-mode.titlebar button:backdrop:active label, .selection-mode.titlebar button:backdrop:checked label,
     headerbar.selection-mode button:backdrop.flat:active label,
     headerbar.selection-mode button:backdrop.flat:checked label,
@@ -3399,7 +3399,7 @@ scale {
     border-radius: 12px;
     background-color: #fff; }
     scale slider:active {
-      border-color: #1b1d22; }
+      border-color: #00A489; }
     scale slider:disabled {
       background-color: #bfbfbf;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
@@ -3408,7 +3408,7 @@ scale {
       background-color: #bfbfbf;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
     row:selected scale slider:disabled, row:selected scale slider {
-      border-color: #1b1d22; }
+      border-color: #00A489; }
     .osd scale slider {
       color: #fefefe;
       border-color: rgba(0, 0, 0, 0.7);
@@ -4386,7 +4386,7 @@ treeview.view {
   treeview.view:drop(active) {
     border-style: solid none;
     border-width: 1px;
-    border-color: #1b1d22; }
+    border-color: #00A489; }
     treeview.view:drop(active).after {
       border-top-style: none; }
     treeview.view:drop(active).before {
@@ -4409,7 +4409,7 @@ treeview.view {
     treeview.view.expander:backdrop {
       color: #56585f; }
   treeview.view.progressbar {
-    border: 1px solid #1b1d22;
+    border: 1px solid #00A489;
     border-radius: 4px;
     background-color: #495aff;
     background-image: linear-gradient(to bottom, #495aff, #162cff);
@@ -4429,7 +4429,7 @@ treeview.view {
     background-color: rgba(195, 199, 209, 0.1);
     border-radius: 4px; }
     treeview.view.trough:selected:focus, treeview.view.trough:selected {
-      background-color: #1b1d22;
+      background-color: #00A489;
       border-radius: 4px; }
   treeview.view header button {
     color: #70737b;
@@ -5928,7 +5928,7 @@ ConversationListView {
     border-width: 0 0 1px 0; }
     ConversationListView .view .cell:selected, ConversationListView iconview .cell:selected {
       color: #ffffff;
-      border: 0px solid #1b1d22; }
+      border: 0px solid #00A489; }
 
 /***********
  * LightDm *
@@ -6175,7 +6175,7 @@ ConversationListView {
       color: #ffffff;
       outline-color: rgba(255, 255, 255, 0.3);
       background-color: #0F1014;
-      border: 1px solid #1b1d22;
+      border: 1px solid #00A489;
       text-shadow: none; }
 
 /*# sourceMappingURL=gtk-dark.css.map */
