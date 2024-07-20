@@ -1,7 +1,16 @@
 # personal-dotfiles
  My personal dotfiles for openSUSE Tumbleweed
 
-  # Images
+# Install script
+```
+cd /path/to/script
+chmod +x setup-suse.sh
+./setup-suse.sh
+After the script has finished, install tofi via
+opi tofi
+```
+
+# Images
 ![alt text](assets/overview.png?raw=true)
 ![alt text](assets/ary-dark.png?raw=true)
 
