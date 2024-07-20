@@ -1,8 +1,7 @@
 # personal-dotfiles
  My personal dotfiles for openSUSE Tumbleweed
-Please note that ary-dark gtk theme is a WIP and isn't fully finished
 
-  # Image
+  # Images
 ![alt text](assets/overview.png?raw=true)
 ![alt text](assets/ary-dark.png?raw=true)
 
@@ -15,6 +14,7 @@ Please note that ary-dark gtk theme is a WIP and isn't fully finished
  - File Manager: Ranger
  - Screenshots: grimm + slurp + swappy
  - Wallpaper: Swaybg
+ - Theme: Ary-dark
 
 | Keybinds  | Action |
 | ------------- | ------------- |
