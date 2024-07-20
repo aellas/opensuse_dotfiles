@@ -1,8 +1,5 @@
 # <p align=center> openSUSE Tumbleweed + Hyprland dotfiles </p>
 
-> [!NOTE]
-> ary-dark is a WIP theme and will change over time
-
 > [!IMPORTANT]  
 > The install script does not place any of the files for you, I've done this so you can decide which parts of my dotfiles you want :) 
 
@@ -17,6 +14,9 @@ After the script has finished, install tofi via `opi tofi`
 ### Images
 ![alt text](assets/overview.png?raw=true)
 ![alt text](assets/ary-dark.png?raw=true)
+
+> [!NOTE]
+> ary-dark is a WIP theme and will change over time
 
  - Distro: openSUSE Tumbleweed
  - WM: Hyprland
