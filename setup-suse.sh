@@ -2,7 +2,7 @@
 
 sudo zypper refresh
 
-apps=("fastfetch" "hyprland" "waybar" "opi" "wofi" "ranger" "kitty" "dunst" "neovide" "grim" "slurp" "swappy" "steam" "hyprpaper" "git" "curl" "polkit-gnome")
+apps=("fastfetch" "hyprland" "waybar" "opi" "wofi" "ranger" "kitty" "dunst" "neovim" "neovide" "grim" "slurp" "swappy" "steam" "hyprpaper" "git" "curl" "polkit-gnome")
 
 for app in "${apps[@]}"; do
   sudo zypper install -y "$app"
