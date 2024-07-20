@@ -1,6 +1,9 @@
 # personal-dotfiles
  My personal dotfiles for openSUSE Tumbleweed
 
+> [!NOTE]
+> ary-dark is a WIP theme and will change over time
+
 # Install script
 ```
 cd /path/to/script
