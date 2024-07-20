@@ -1,6 +1,11 @@
 # personal-dotfiles
  My personal dotfiles for openSUSE Tumbleweed
 
+  # Images
+
+> Desktop
+![alt text](assets/overview.png?raw=true)
+
  - Distro: openSUSE Tumbleweed
  - WM: Hyprland
  - Shell: Bash + oh-my-bash
@@ -11,7 +16,11 @@
  - Screenshots: grimm + slurp + swappy
  - Wallpaper: Swaybg
 
- # Images
+| Keybinds  | Action |
+| ------------- | ------------- |
+| Mod + Q  | Kill Window |
+| Mod + ENTER  | Launches Kitty |
+| Mod + BACKSLASH | Launches neovim  |
+| Mod + SPACE  | Launches Wofi |
+| Mod + SHIFT + W  | Restarts Waybar|
 
-> Desktop
-![alt text](assets/overview.png?raw=true)
