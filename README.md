@@ -1,5 +1,7 @@
 > [!NOTE]
 > ary-dark is a WIP theme and will change over time
+> [!TIP]
+> The script does not place any of the files for you, I've done this so you can decide which parts of my dotfiles you want :) 
 
 # Install script
 ```
