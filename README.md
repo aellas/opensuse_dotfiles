@@ -1,5 +1,6 @@
 # personal-dotfiles
  My personal dotfiles for openSUSE Tumbleweed
+Please note that ary-dark gtk theme is a WIP and isn't fully finished
 
   # Image
 ![alt text](assets/overview.png?raw=true)
