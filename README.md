@@ -1,6 +1,3 @@
-# personal-dotfiles
- My personal dotfiles for openSUSE Tumbleweed
-
 > [!NOTE]
 > ary-dark is a WIP theme and will change over time
 
