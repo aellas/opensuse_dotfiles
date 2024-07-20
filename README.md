@@ -1,8 +1,8 @@
 # personal-dotfiles
  My personal dotfiles for openSUSE Tumbleweed
 
-  # Images
-
+  # Image
+>
 ![alt text](assets/overview.png?raw=true)
 
  - Distro: openSUSE Tumbleweed
