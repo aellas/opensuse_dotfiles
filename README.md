@@ -1,4 +1,4 @@
-# <center> My personal openSUSE Tumbleweed + Hyprland dotfiles </center>
+# <p align=center> My personal openSUSE Tumbleweed + Hyprland dotfiles </p>
 
 > [!NOTE]
 > ary-dark is a WIP theme and will change over time
